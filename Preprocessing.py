@@ -9,7 +9,7 @@ import dask.dataframe as dd
 def preprocess_data():
     print("Download the necessary data-set with cURL")
     os.system("curl -O -X GET 'http://files.grouplens.org/datasets/movielens/ml-latest.zip' && unzip ml-latest.zip && rm "
-             "ml-latest.zip")
+            "ml-latest.zip")
 
     # Dask setting to enable seeing all columns on print
     pd.set_option('display.max_columns', 25)
@@ -56,6 +56,20 @@ def preprocess_data():
     groupby_mean.drop(['identity'], axis=1, inplace=True)
     groupby_mean.drop(['timestamp'], axis=1, inplace=True)
 
+    # Remove the wrong data when year is 201
+    print(groupby_mean.head())
+    #groupby_mean.iloc[:, 1].replace(0.0, 0.5)
+    groupby_mean = groupby_mean[groupby_mean.year > 1850]
+    groupby_mean = groupby_mean[groupby_mean['year'].apply(lambda x: x.is_integer())]
+
+    groupby_mean['Age'] = groupby_mean['year'].apply(lambda x: 2019 - x)
+    groupby_mean['lifespan_in_movielens'] = groupby_mean['lifespan_in_movielens'].apply(lambda x: x / 60 / 60 / 24 / 365)
+
+    groupby_mean.drop(['year'], axis=1, inplace=True)
+
+
+
+
     print("Movie dataframe with new features")
     print(movie_dd.head())
 
@@ -65,6 +79,7 @@ def preprocess_data():
 
     print("Hot Encoding of Genres which is a categorical attribute")
     groupby_mean['genres'] = groupby_mean['genres'].apply(lambda row: row.split('|'))
+    groupby_mean['genre_count'] = groupby_mean['genres'].apply(lambda row: len(row))
     genre_columns = groupby_mean['genres'].apply(lambda x: pd.Series(1, index=x)).fillna(0)
     groupby_mean = pd.concat([groupby_mean, genre_columns], axis=1)
     groupby_mean = groupby_mean.drop(['genres'], axis=1)

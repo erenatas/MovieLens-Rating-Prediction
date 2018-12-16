@@ -1,0 +1,1036 @@
+/Users/erenatas/.conda/envs/CannyEdgeDetection/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/Users/erenatas/.conda/envs/CannyEdgeDetection/lib/python3.6/site-packages/sklearn/preprocessing/data.py:323: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by MinMaxScaler.
+  return self.partial_fit(X, y)
+OLS: Least CV error: -0.08
+
+Lambda = 0.00010
+Ridge: Least CV error: -0.08 and time : 0.027
+Lasso: Least CV error: -0.08 and time : 0.026
+
+
+Lambda = 0.00100
+Ridge: Least CV error: -0.08 and time : 0.023
+Lasso: Least CV error: -0.08 and time : 0.019
+
+
+Lambda = 0.01000
+Ridge: Least CV error: -0.08 and time : 0.018
+Lasso: Least CV error: -0.07 and time : 0.015
+
+
+Lambda = 0.02000
+Ridge: Least CV error: -0.08 and time : 0.017
+Lasso: Least CV error: -0.05 and time : 0.015
+
+
+Lambda = 0.05000
+Ridge: Least CV error: -0.08 and time : 0.017
+Lasso: Least CV error: 0.00 and time : 0.014
+
+
+Lambda = 0.10000
+Ridge: Least CV error: -0.08 and time : 0.017
+Lasso: Least CV error: 0.00 and time : 0.015
+
+
+Lambda = 1.00000
+Ridge: Least CV error: -0.08 and time : 0.019
+Lasso: Least CV error: 0.00 and time : 0.018
+
+
+Lambda = 10.00000
+Ridge: Least CV error: -0.08 and time : 0.024
+Lasso: Least CV error: 0.00 and time : 0.023
+
+
+Lambda = 0.00010
+Elastic Net: l1Ratio = 0.10, Least CV error: -0.08 and time : 0.022
+Elastic Net: l1Ratio = 0.25, Least CV error: -0.08 and time : 0.019
+Elastic Net: l1Ratio = 0.50, Least CV error: -0.08 and time : 0.017
+Elastic Net: l1Ratio = 0.75, Least CV error: -0.08 and time : 0.016
+Elastic Net: l1Ratio = 0.90, Least CV error: -0.08 and time : 0.016
+
+
+Lambda = 0.00100
+Elastic Net: l1Ratio = 0.10, Least CV error: -0.08 and time : 0.019
+Elastic Net: l1Ratio = 0.25, Least CV error: -0.08 and time : 0.020
+Elastic Net: l1Ratio = 0.50, Least CV error: -0.08 and time : 0.018
+Elastic Net: l1Ratio = 0.75, Least CV error: -0.08 and time : 0.018
+Elastic Net: l1Ratio = 0.90, Least CV error: -0.08 and time : 0.017
+
+
+Lambda = 0.01000
+Elastic Net: l1Ratio = 0.10, Least CV error: -0.08 and time : 0.019
+Elastic Net: l1Ratio = 0.25, Least CV error: -0.08 and time : 0.018
+Elastic Net: l1Ratio = 0.50, Least CV error: -0.08 and time : 0.017
+Elastic Net: l1Ratio = 0.75, Least CV error: -0.08 and time : 0.016
+Elastic Net: l1Ratio = 0.90, Least CV error: -0.07 and time : 0.016
+
+
+Lambda = 0.02000
+Elastic Net: l1Ratio = 0.10, Least CV error: -0.08 and time : 0.016
+Elastic Net: l1Ratio = 0.25, Least CV error: -0.08 and time : 0.015
+Elastic Net: l1Ratio = 0.50, Least CV error: -0.07 and time : 0.016
+Elastic Net: l1Ratio = 0.75, Least CV error: -0.06 and time : 0.015
+Elastic Net: l1Ratio = 0.90, Least CV error: -0.06 and time : 0.015
+
+
+Lambda = 0.05000
+Elastic Net: l1Ratio = 0.10, Least CV error: -0.07 and time : 0.017
+Elastic Net: l1Ratio = 0.25, Least CV error: -0.06 and time : 0.017
+Elastic Net: l1Ratio = 0.50, Least CV error: -0.04 and time : 0.017
+Elastic Net: l1Ratio = 0.75, Least CV error: -0.01 and time : 0.017
+Elastic Net: l1Ratio = 0.90, Least CV error: -0.00 and time : 0.017
+
+
+Lambda = 0.10000
+Elastic Net: l1Ratio = 0.10, Least CV error: -0.05 and time : 0.016
+Elastic Net: l1Ratio = 0.25, Least CV error: -0.03 and time : 0.016
+Elastic Net: l1Ratio = 0.50, Least CV error: 0.00 and time : 0.015
+Elastic Net: l1Ratio = 0.75, Least CV error: 0.00 and time : 0.015
+Elastic Net: l1Ratio = 0.90, Least CV error: 0.00 and time : 0.015
+
+
+Lambda = 1.00000
+Elastic Net: l1Ratio = 0.10, Least CV error: 0.00 and time : 0.015
+Elastic Net: l1Ratio = 0.25, Least CV error: 0.00 and time : 0.015
+Elastic Net: l1Ratio = 0.50, Least CV error: 0.00 and time : 0.015
+Elastic Net: l1Ratio = 0.75, Least CV error: 0.00 and time : 0.015
+Elastic Net: l1Ratio = 0.90, Least CV error: 0.00 and time : 0.017
+
+
+Lambda = 10.00000
+Elastic Net: l1Ratio = 0.10, Least CV error: 0.00 and time : 0.017
+Elastic Net: l1Ratio = 0.25, Least CV error: 0.00 and time : 0.017
+Elastic Net: l1Ratio = 0.50, Least CV error: 0.00 and time : 0.017
+Elastic Net: l1Ratio = 0.75, Least CV error: 0.00 and time : 0.020
+Elastic Net: l1Ratio = 0.90, Least CV error: 0.00 and time : 0.024
+
+
+Number of trees/estimators = 1, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.08 and time : 0.054
+Number of trees/estimators = 1, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 0.079
+Number of trees/estimators = 1, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.07 and time : 0.090
+Number of trees/estimators = 1, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.02 and time : 0.100
+Number of trees/estimators = 1, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: 0.21 and time : 0.135
+Number of trees/estimators = 1, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: 0.54 and time : 0.178
+
+
+Number of trees/estimators = 1, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.07 and time : 0.107
+Number of trees/estimators = 1, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 0.155
+Number of trees/estimators = 1, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.07 and time : 0.192
+Number of trees/estimators = 1, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.03 and time : 0.216
+Number of trees/estimators = 1, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: 0.19 and time : 0.309
+Number of trees/estimators = 1, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: 0.57 and time : 0.414
+
+
+Number of trees/estimators = 1, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.08 and time : 0.114
+Number of trees/estimators = 1, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.08 and time : 0.198
+Number of trees/estimators = 1, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.07 and time : 0.238
+Number of trees/estimators = 1, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.01 and time : 0.285
+Number of trees/estimators = 1, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: 0.17 and time : 0.391
+Number of trees/estimators = 1, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: 0.57 and time : 0.540
+
+
+Number of trees/estimators = 1, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.08 and time : 0.042
+Number of trees/estimators = 1, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 0.068
+Number of trees/estimators = 1, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.07 and time : 0.083
+Number of trees/estimators = 1, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.02 and time : 0.095
+Number of trees/estimators = 1, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: 0.21 and time : 0.127
+Number of trees/estimators = 1, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: 0.54 and time : 0.175
+
+
+Number of trees/estimators = 2, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 0.080
+Number of trees/estimators = 2, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.10 and time : 0.126
+Number of trees/estimators = 2, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 0.150
+Number of trees/estimators = 2, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.07 and time : 0.177
+Number of trees/estimators = 2, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: 0.03 and time : 0.243
+Number of trees/estimators = 2, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: 0.27 and time : 0.331
+
+
+Number of trees/estimators = 2, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.08 and time : 0.164
+Number of trees/estimators = 2, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.10 and time : 0.291
+Number of trees/estimators = 2, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 0.358
+Number of trees/estimators = 2, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.08 and time : 0.430
+Number of trees/estimators = 2, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: 0.02 and time : 0.596
+Number of trees/estimators = 2, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: 0.26 and time : 0.798
+
+
+Number of trees/estimators = 2, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 0.204
+Number of trees/estimators = 2, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.10 and time : 0.391
+Number of trees/estimators = 2, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.10 and time : 0.468
+Number of trees/estimators = 2, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.07 and time : 0.584
+Number of trees/estimators = 2, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: 0.02 and time : 0.755
+Number of trees/estimators = 2, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: 0.26 and time : 1.052
+
+
+Number of trees/estimators = 2, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 0.071
+Number of trees/estimators = 2, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.10 and time : 0.115
+Number of trees/estimators = 2, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 0.149
+Number of trees/estimators = 2, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.07 and time : 0.171
+Number of trees/estimators = 2, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: 0.03 and time : 0.252
+Number of trees/estimators = 2, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: 0.27 and time : 0.339
+
+
+Number of trees/estimators = 5, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 0.156
+Number of trees/estimators = 5, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.10 and time : 0.291
+Number of trees/estimators = 5, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 0.367
+Number of trees/estimators = 5, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 0.418
+Number of trees/estimators = 5, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: -0.05 and time : 0.572
+Number of trees/estimators = 5, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: 0.08 and time : 0.837
+
+
+Number of trees/estimators = 5, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 0.377
+Number of trees/estimators = 5, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 0.685
+Number of trees/estimators = 5, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 0.905
+Number of trees/estimators = 5, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 1.067
+Number of trees/estimators = 5, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: -0.05 and time : 1.430
+Number of trees/estimators = 5, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: 0.08 and time : 2.083
+
+
+Number of trees/estimators = 5, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 0.504
+Number of trees/estimators = 5, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 0.934
+Number of trees/estimators = 5, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 1.136
+Number of trees/estimators = 5, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.10 and time : 1.377
+Number of trees/estimators = 5, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: -0.07 and time : 1.907
+Number of trees/estimators = 5, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: 0.07 and time : 2.615
+
+
+Number of trees/estimators = 5, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 0.160
+Number of trees/estimators = 5, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.10 and time : 0.272
+Number of trees/estimators = 5, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 0.341
+Number of trees/estimators = 5, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 0.405
+Number of trees/estimators = 5, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: -0.05 and time : 0.563
+Number of trees/estimators = 5, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: 0.08 and time : 0.823
+
+
+Number of trees/estimators = 10, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 0.304
+Number of trees/estimators = 10, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 0.527
+Number of trees/estimators = 10, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 0.688
+Number of trees/estimators = 10, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 0.818
+Number of trees/estimators = 10, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 1.124
+Number of trees/estimators = 10, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: 0.02 and time : 1.587
+
+
+Number of trees/estimators = 10, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 0.800
+Number of trees/estimators = 10, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 1.447
+Number of trees/estimators = 10, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 1.773
+Number of trees/estimators = 10, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 2.159
+Number of trees/estimators = 10, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: -0.08 and time : 3.018
+Number of trees/estimators = 10, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: 0.02 and time : 4.360
+
+
+Number of trees/estimators = 10, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 1.233
+Number of trees/estimators = 10, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 2.186
+Number of trees/estimators = 10, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 2.804
+Number of trees/estimators = 10, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 3.441
+Number of trees/estimators = 10, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: -0.08 and time : 4.736
+Number of trees/estimators = 10, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: 0.02 and time : 6.395
+
+
+Number of trees/estimators = 10, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 0.497
+Number of trees/estimators = 10, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 0.743
+Number of trees/estimators = 10, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 0.943
+Number of trees/estimators = 10, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 1.002
+Number of trees/estimators = 10, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 1.590
+Number of trees/estimators = 10, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: 0.02 and time : 2.063
+
+
+Number of trees/estimators = 20, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 1.051
+Number of trees/estimators = 20, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 1.501
+Number of trees/estimators = 20, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 1.818
+Number of trees/estimators = 20, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 2.105
+Number of trees/estimators = 20, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: -0.10 and time : 3.284
+Number of trees/estimators = 20, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: -0.01 and time : 3.643
+
+
+Number of trees/estimators = 20, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 1.458
+Number of trees/estimators = 20, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 2.628
+Number of trees/estimators = 20, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 3.351
+Number of trees/estimators = 20, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 4.059
+Number of trees/estimators = 20, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: -0.10 and time : 5.647
+Number of trees/estimators = 20, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: -0.01 and time : 7.818
+
+
+Number of trees/estimators = 20, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 1.861
+Number of trees/estimators = 20, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 3.421
+Number of trees/estimators = 20, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 4.377
+Number of trees/estimators = 20, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 5.288
+Number of trees/estimators = 20, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: -0.10 and time : 7.352
+Number of trees/estimators = 20, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: -0.01 and time : 10.172
+
+
+Number of trees/estimators = 20, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 0.617
+Number of trees/estimators = 20, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 1.069
+Number of trees/estimators = 20, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 1.333
+Number of trees/estimators = 20, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 1.599
+Number of trees/estimators = 20, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: -0.10 and time : 2.222
+Number of trees/estimators = 20, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: -0.01 and time : 3.132
+
+
+Number of trees/estimators = 35, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 1.044
+Number of trees/estimators = 35, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 1.818
+Number of trees/estimators = 35, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 2.288
+Number of trees/estimators = 35, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 2.739
+Number of trees/estimators = 35, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 3.872
+Number of trees/estimators = 35, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: -0.03 and time : 5.464
+
+
+Number of trees/estimators = 35, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 2.499
+Number of trees/estimators = 35, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 4.567
+Number of trees/estimators = 35, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 5.835
+Number of trees/estimators = 35, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 7.053
+Number of trees/estimators = 35, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: -0.10 and time : 9.830
+Number of trees/estimators = 35, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: -0.03 and time : 13.492
+
+
+Number of trees/estimators = 35, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 3.264
+Number of trees/estimators = 35, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 6.010
+Number of trees/estimators = 35, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 7.748
+Number of trees/estimators = 35, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 9.379
+Number of trees/estimators = 35, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: -0.10 and time : 13.094
+Number of trees/estimators = 35, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: -0.02 and time : 17.810
+
+
+Number of trees/estimators = 35, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 1.040
+Number of trees/estimators = 35, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 1.811
+Number of trees/estimators = 35, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 2.301
+Number of trees/estimators = 35, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 2.749
+Number of trees/estimators = 35, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 4.049
+Number of trees/estimators = 35, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: -0.03 and time : 5.440
+
+
+Number of trees/estimators = 50, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 1.473
+Number of trees/estimators = 50, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 2.576
+Number of trees/estimators = 50, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 3.266
+Number of trees/estimators = 50, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 3.922
+Number of trees/estimators = 50, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 5.537
+Number of trees/estimators = 50, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: -0.03 and time : 7.798
+
+
+Number of trees/estimators = 50, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 3.574
+Number of trees/estimators = 50, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 6.537
+Number of trees/estimators = 50, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 8.346
+Number of trees/estimators = 50, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 10.066
+Number of trees/estimators = 50, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: -0.10 and time : 14.047
+Number of trees/estimators = 50, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: -0.03 and time : 19.330
+
+
+Number of trees/estimators = 50, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 4.626
+Number of trees/estimators = 50, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 8.512
+Number of trees/estimators = 50, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 10.911
+Number of trees/estimators = 50, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 13.164
+Number of trees/estimators = 50, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: -0.10 and time : 18.359
+Number of trees/estimators = 50, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: -0.03 and time : 25.151
+
+
+Number of trees/estimators = 50, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 1.465
+Number of trees/estimators = 50, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 2.578
+Number of trees/estimators = 50, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 3.257
+Number of trees/estimators = 50, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 3.913
+Number of trees/estimators = 50, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 5.523
+Number of trees/estimators = 50, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: -0.03 and time : 7.797
+
+
+Number of trees/estimators = 100, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 2.928
+Number of trees/estimators = 100, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 5.164
+Number of trees/estimators = 100, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 6.519
+Number of trees/estimators = 100, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.13 and time : 7.807
+Number of trees/estimators = 100, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 11.049
+Number of trees/estimators = 100, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: -0.04 and time : 15.574
+
+
+Number of trees/estimators = 100, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 7.114
+Number of trees/estimators = 100, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 13.046
+Number of trees/estimators = 100, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 16.679
+Number of trees/estimators = 100, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 20.101
+Number of trees/estimators = 100, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: -0.10 and time : 28.332
+Number of trees/estimators = 100, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: -0.04 and time : 39.228
+
+
+Number of trees/estimators = 100, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 9.437
+Number of trees/estimators = 100, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 17.024
+Number of trees/estimators = 100, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 21.773
+Number of trees/estimators = 100, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 26.312
+Number of trees/estimators = 100, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: -0.10 and time : 36.643
+Number of trees/estimators = 100, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: -0.03 and time : 50.261
+
+
+Number of trees/estimators = 100, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 2.920
+Number of trees/estimators = 100, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 5.141
+Number of trees/estimators = 100, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 6.520
+Number of trees/estimators = 100, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.13 and time : 7.804
+Number of trees/estimators = 100, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 11.068
+Number of trees/estimators = 100, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: -0.04 and time : 15.552
+
+
+Number of trees/estimators = 200, max depth = 3
+Random forest regressor: % of features = 25.00, Least CV error: -0.09 and time : 5.848
+Number of trees/estimators = 200, max depth = 6
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 10.312
+Number of trees/estimators = 200, max depth = 8
+Random forest regressor: % of features = 25.00, Least CV error: -0.12 and time : 13.000
+Number of trees/estimators = 200, max depth = 10
+Random forest regressor: % of features = 25.00, Least CV error: -0.13 and time : 15.632
+Number of trees/estimators = 200, max depth = 15
+Random forest regressor: % of features = 25.00, Least CV error: -0.11 and time : 22.105
+Number of trees/estimators = 200, max depth = 25
+Random forest regressor: % of features = 25.00, Least CV error: -0.04 and time : 31.143
+
+
+Number of trees/estimators = 200, max depth = 3
+Random forest regressor: % of features = 50.00, Least CV error: -0.09 and time : 14.232
+Number of trees/estimators = 200, max depth = 6
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 26.060
+Number of trees/estimators = 200, max depth = 8
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 33.287
+Number of trees/estimators = 200, max depth = 10
+Random forest regressor: % of features = 50.00, Least CV error: -0.12 and time : 40.216
+Number of trees/estimators = 200, max depth = 15
+Random forest regressor: % of features = 50.00, Least CV error: -0.11 and time : 56.121
+Number of trees/estimators = 200, max depth = 25
+Random forest regressor: % of features = 50.00, Least CV error: -0.04 and time : 77.273
+
+
+Number of trees/estimators = 200, max depth = 3
+Random forest regressor: % of features = 75.00, Least CV error: -0.09 and time : 18.430
+Number of trees/estimators = 200, max depth = 6
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 34.501
+Number of trees/estimators = 200, max depth = 8
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 43.794
+Number of trees/estimators = 200, max depth = 10
+Random forest regressor: % of features = 75.00, Least CV error: -0.12 and time : 52.764
+Number of trees/estimators = 200, max depth = 15
+Random forest regressor: % of features = 75.00, Least CV error: -0.11 and time : 73.522
+Number of trees/estimators = 200, max depth = 25
+Random forest regressor: % of features = 75.00, Least CV error: -0.04 and time : 100.892
+
+
+Number of trees/estimators = 200, max depth = 3
+Random forest regressor: % of features = 100.00, Least CV error: -0.09 and time : 5.851
+Number of trees/estimators = 200, max depth = 6
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 10.426
+Number of trees/estimators = 200, max depth = 8
+Random forest regressor: % of features = 100.00, Least CV error: -0.12 and time : 13.056
+Number of trees/estimators = 200, max depth = 10
+Random forest regressor: % of features = 100.00, Least CV error: -0.13 and time : 15.711
+Number of trees/estimators = 200, max depth = 15
+Random forest regressor: % of features = 100.00, Least CV error: -0.11 and time : 22.250
+Number of trees/estimators = 200, max depth = 25
+Random forest regressor: % of features = 100.00, Least CV error: -0.04 and time : 31.261
+
+
+Number of trees/estimators = 1, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.09 and time : 0.230
+Number of trees/estimators = 1, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.09 and time : 0.397
+Number of trees/estimators = 1, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.07 and time : 0.498
+Number of trees/estimators = 1, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 0.596
+Number of trees/estimators = 1, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.14 and time : 0.816
+Number of trees/estimators = 1, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.50 and time : 1.101
+
+
+Number of trees/estimators = 2, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.09 and time : 0.446
+Number of trees/estimators = 2, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.09 and time : 0.782
+Number of trees/estimators = 2, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.07 and time : 0.980
+Number of trees/estimators = 2, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 1.180
+Number of trees/estimators = 2, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.14 and time : 1.607
+Number of trees/estimators = 2, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.50 and time : 2.194
+
+
+Number of trees/estimators = 5, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.08 and time : 1.059
+Number of trees/estimators = 5, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.10 and time : 1.847
+Number of trees/estimators = 5, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.09 and time : 2.338
+Number of trees/estimators = 5, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.09 and time : 2.817
+Number of trees/estimators = 5, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.06 and time : 3.905
+Number of trees/estimators = 5, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.17 and time : 5.328
+
+
+Number of trees/estimators = 10, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.07 and time : 1.952
+Number of trees/estimators = 10, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.07 and time : 3.358
+Number of trees/estimators = 10, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.07 and time : 4.284
+Number of trees/estimators = 10, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.09 and time : 5.160
+Number of trees/estimators = 10, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.08 and time : 7.189
+Number of trees/estimators = 10, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.11 and time : 9.372
+
+
+Number of trees/estimators = 20, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 2.900
+Number of trees/estimators = 20, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.06 and time : 5.359
+Number of trees/estimators = 20, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.05 and time : 7.523
+Number of trees/estimators = 20, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.07 and time : 8.952
+Number of trees/estimators = 20, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.08 and time : 12.034
+Number of trees/estimators = 20, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.08 and time : 13.395
+
+
+Number of trees/estimators = 35, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 3.051
+Number of trees/estimators = 35, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 6.417
+Number of trees/estimators = 35, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.05 and time : 9.664
+Number of trees/estimators = 35, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 11.534
+Number of trees/estimators = 35, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.06 and time : 16.805
+Number of trees/estimators = 35, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.06 and time : 16.979
+
+
+Number of trees/estimators = 50, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 3.074
+Number of trees/estimators = 50, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 6.550
+Number of trees/estimators = 50, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.05 and time : 9.664
+Number of trees/estimators = 50, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 12.304
+Number of trees/estimators = 50, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.05 and time : 20.397
+Number of trees/estimators = 50, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.04 and time : 19.508
+
+
+Number of trees/estimators = 100, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 3.048
+Number of trees/estimators = 100, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 6.621
+Number of trees/estimators = 100, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.05 and time : 9.694
+Number of trees/estimators = 100, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 11.977
+Number of trees/estimators = 100, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 28.431
+Number of trees/estimators = 100, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.03 and time : 26.983
+
+
+Number of trees/estimators = 200, max depth = 3
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 3.048
+Number of trees/estimators = 200, max depth = 6
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 6.529
+Number of trees/estimators = 200, max depth = 8
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.05 and time : 9.733
+Number of trees/estimators = 200, max depth = 10
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.04 and time : 12.013
+Number of trees/estimators = 200, max depth = 15
+Regressor using AdaBoosting: loss type = linear, Least CV error: -0.03 and time : 41.966
+Number of trees/estimators = 200, max depth = 25
+Regressor using AdaBoosting: loss type = linear, Least CV error: 0.01 and time : 39.838
+
+
+Number of trees/estimators = 1, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.09 and time : 0.243
+Number of trees/estimators = 1, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.09 and time : 0.397
+Number of trees/estimators = 1, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.07 and time : 0.500
+Number of trees/estimators = 1, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.04 and time : 0.598
+Number of trees/estimators = 1, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.14 and time : 0.815
+Number of trees/estimators = 1, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.50 and time : 1.101
+
+
+Number of trees/estimators = 2, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.09 and time : 0.441
+Number of trees/estimators = 2, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.09 and time : 0.768
+Number of trees/estimators = 2, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.07 and time : 0.980
+Number of trees/estimators = 2, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.04 and time : 1.176
+Number of trees/estimators = 2, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.14 and time : 1.611
+Number of trees/estimators = 2, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.50 and time : 2.194
+
+
+Number of trees/estimators = 5, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.00 and time : 0.996
+Number of trees/estimators = 5, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.07 and time : 1.768
+Number of trees/estimators = 5, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.08 and time : 2.295
+Number of trees/estimators = 5, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.09 and time : 2.777
+Number of trees/estimators = 5, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.04 and time : 3.889
+Number of trees/estimators = 5, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 5.304
+
+
+Number of trees/estimators = 10, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.10 and time : 1.665
+Number of trees/estimators = 10, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.01 and time : 2.990
+Number of trees/estimators = 10, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.07 and time : 3.944
+Number of trees/estimators = 10, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.07 and time : 4.859
+Number of trees/estimators = 10, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.07 and time : 6.970
+Number of trees/estimators = 10, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.11 and time : 9.378
+
+
+Number of trees/estimators = 20, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.19 and time : 2.696
+Number of trees/estimators = 20, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.14 and time : 4.690
+Number of trees/estimators = 20, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.01 and time : 6.123
+Number of trees/estimators = 20, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.01 and time : 7.491
+Number of trees/estimators = 20, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.07 and time : 10.431
+Number of trees/estimators = 20, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.07 and time : 12.908
+
+
+Number of trees/estimators = 35, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.18 and time : 3.969
+Number of trees/estimators = 35, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 6.764
+Number of trees/estimators = 35, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.12 and time : 8.692
+Number of trees/estimators = 35, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.09 and time : 10.468
+Number of trees/estimators = 35, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.05 and time : 13.239
+Number of trees/estimators = 35, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.05 and time : 15.628
+
+
+Number of trees/estimators = 50, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.17 and time : 5.197
+Number of trees/estimators = 50, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 8.675
+Number of trees/estimators = 50, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.14 and time : 11.064
+Number of trees/estimators = 50, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.14 and time : 13.014
+Number of trees/estimators = 50, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: -0.03 and time : 15.345
+Number of trees/estimators = 50, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.03 and time : 18.059
+
+
+Number of trees/estimators = 100, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.17 and time : 9.186
+Number of trees/estimators = 100, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 14.810
+Number of trees/estimators = 100, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 18.163
+Number of trees/estimators = 100, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.15 and time : 19.594
+Number of trees/estimators = 100, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.03 and time : 21.754
+Number of trees/estimators = 100, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.05 and time : 26.815
+
+
+Number of trees/estimators = 200, max depth = 3
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 16.993
+Number of trees/estimators = 200, max depth = 6
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 25.941
+Number of trees/estimators = 200, max depth = 8
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 28.489
+Number of trees/estimators = 200, max depth = 10
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.16 and time : 29.233
+Number of trees/estimators = 200, max depth = 15
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.09 and time : 34.366
+Number of trees/estimators = 200, max depth = 25
+Regressor using AdaBoosting: loss type = square, Least CV error: 0.17 and time : 44.469
+
+
+Number of trees/estimators = 1, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.09 and time : 0.234
+Number of trees/estimators = 1, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.09 and time : 0.406
+Number of trees/estimators = 1, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.07 and time : 0.512
+Number of trees/estimators = 1, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.04 and time : 0.610
+Number of trees/estimators = 1, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.14 and time : 0.835
+Number of trees/estimators = 1, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.50 and time : 1.126
+
+
+Number of trees/estimators = 2, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.09 and time : 0.457
+Number of trees/estimators = 2, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.09 and time : 0.798
+Number of trees/estimators = 2, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.07 and time : 1.008
+Number of trees/estimators = 2, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.04 and time : 1.229
+Number of trees/estimators = 2, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.14 and time : 1.658
+Number of trees/estimators = 2, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.50 and time : 2.244
+
+
+Number of trees/estimators = 5, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.08 and time : 1.096
+Number of trees/estimators = 5, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.10 and time : 1.921
+Number of trees/estimators = 5, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.10 and time : 2.432
+Number of trees/estimators = 5, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.10 and time : 2.935
+Number of trees/estimators = 5, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.06 and time : 4.056
+Number of trees/estimators = 5, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.17 and time : 5.488
+
+
+Number of trees/estimators = 10, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.06 and time : 2.031
+Number of trees/estimators = 10, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.08 and time : 3.544
+Number of trees/estimators = 10, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.09 and time : 4.513
+Number of trees/estimators = 10, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.10 and time : 5.469
+Number of trees/estimators = 10, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.08 and time : 7.633
+Number of trees/estimators = 10, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.12 and time : 10.146
+
+
+Number of trees/estimators = 20, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.02 and time : 3.552
+Number of trees/estimators = 20, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.02 and time : 6.147
+Number of trees/estimators = 20, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.04 and time : 7.815
+Number of trees/estimators = 20, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.06 and time : 9.421
+Number of trees/estimators = 20, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.08 and time : 13.165
+Number of trees/estimators = 20, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.07 and time : 14.894
+
+
+Number of trees/estimators = 35, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.11 and time : 5.458
+Number of trees/estimators = 35, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.08 and time : 9.277
+Number of trees/estimators = 35, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.03 and time : 11.648
+Number of trees/estimators = 35, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.00 and time : 13.935
+Number of trees/estimators = 35, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.06 and time : 18.108
+Number of trees/estimators = 35, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.03 and time : 18.085
+
+
+Number of trees/estimators = 50, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.15 and time : 7.143
+Number of trees/estimators = 50, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.12 and time : 11.933
+Number of trees/estimators = 50, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.09 and time : 14.878
+Number of trees/estimators = 50, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.04 and time : 17.706
+Number of trees/estimators = 50, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.06 and time : 20.979
+Number of trees/estimators = 50, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.01 and time : 20.239
+
+
+Number of trees/estimators = 100, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.17 and time : 12.028
+Number of trees/estimators = 100, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.16 and time : 19.514
+Number of trees/estimators = 100, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.14 and time : 24.041
+Number of trees/estimators = 100, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.12 and time : 27.462
+Number of trees/estimators = 100, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.05 and time : 27.167
+Number of trees/estimators = 100, max depth = 25
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.04 and time : 25.751
+
+
+Number of trees/estimators = 200, max depth = 3
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.17 and time : 20.791
+Number of trees/estimators = 200, max depth = 6
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.16 and time : 32.809
+Number of trees/estimators = 200, max depth = 8
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.16 and time : 38.651
+Number of trees/estimators = 200, max depth = 10
+Regressor using AdaBoosting: loss type = exponential, Least CV error: 0.14 and time : 39.285
+Number of trees/estimators = 200, max depth = 15
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.03 and time : 36.086
+Number of trees/estimators = 200, max depth = 25
+Traceback (most recent call last):
+  File "/Users/erenatas/Documents/Homeworks/Machine Learning Project/RatingPrediction.py", line 6, in <module>
+Regressor using AdaBoosting: loss type = exponential, Least CV error: -0.03 and time : 33.911
+    ModelSelectionCV.model_selection_cv(pca_trn, pca_tst, y_train, y_test)
+
+
+Lambda = 2.00000
+KNeighborsRegressor: Least CV error: 0.22 and time : 0.161
+  File "/Users/erenatas/Documents/Homeworks/Machine Learning Project/ModelSelectionCV.py", line 191, in model_selection_cv
+
+
+Lambda = 3.00000
+    "n_estimators": st.randint(3, 40, 100, 1000, 10000),
+KNeighborsRegressor: Least CV error: 0.10 and time : 0.173
+  File "/Users/erenatas/.conda/envs/CannyEdgeDetection/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py", line 772, in __call__
+    return self.freeze(*args, **kwds)
+  File "/Users/erenatas/.conda/envs/CannyEdgeDetection/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py", line 769, in freeze
+    return rv_frozen(self, *args, **kwds)
+  File "/Users/erenatas/.conda/envs/CannyEdgeDetection/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py", line 437, in __init__
+
+
+Lambda = 4.00000
+KNeighborsRegressor: Least CV error: 0.04 and time : 0.184
+
+
+Lambda = 5.00000
+KNeighborsRegressor: Least CV error: 0.01 and time : 0.205
+
+
+Lambda = 6.00000
+KNeighborsRegressor: Least CV error: -0.02 and time : 0.218
+
+
+    shapes, _, _ = self.dist._parse_args(*args, **kwds)
+Lambda = 7.00000
+TypeError: _parse_args() takes from 3 to 4 positional arguments but 6 were given
+KNeighborsRegressor: Least CV error: -0.04 and time : 0.222
+
+
+Lambda = 8.00000
+KNeighborsRegressor: Least CV error: -0.05 and time : 0.230
+
+
+Lambda = 9.00000
+KNeighborsRegressor: Least CV error: -0.06 and time : 0.238
+
+

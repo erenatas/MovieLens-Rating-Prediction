@@ -8,11 +8,12 @@ import seaborn as sns
 def explanatory_data_analysis():
     base_df = pd.read_csv('ml-latest/base.csv')
 
-    plt.hist(base_df.year)
-    plt.xlim(1700)
+    plt.hist(base_df.Age)
+    plt.xlim()
+    plt.title("Age Histogram")
     plt.show()
 
-    print(base_df.year.value_counts(normalize=True))
+    print(base_df.Age.value_counts(normalize=True))
 
     plt.hist(base_df.rating)
     plt.title("Rating Histogram")
