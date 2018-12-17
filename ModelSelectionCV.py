@@ -37,55 +37,55 @@ def model_selection_cv(pca_trn, pca_tst, y_train, y_test):
     #X_train, X_test, y_train, y_test = model_selection.train_test_split(groupby_mean, rating, test_size=0.1,
     #                                                                    random_state=0)
 
-    X_train, X_test= pca_trn, pca_tst
+    X_train, X_test = pca_trn, pca_tst
 
-    # Create OLS linear regression object
-    regrOLS = linear_model.LinearRegression()
-
-    # Perform 5 fold cross-validation and store the MSE resulted from each fold
-    scores = model_selection.cross_val_score(regrOLS, X_train, y_train, scoring='r2', cv=5)
-
-    # Note: Due to a known issue in scikit-learn the results return are flipped in sign
-    print('OLS: Least CV error: %.2f\n' % np.min(-scores))
-
-    # ---------------- Cross validation for Ridge and Lasso ------------------------#
-    # Range of hyper-parameters to choose for CV
-    lambdas = [0.0001, 0.001, 0.01, 0.02, 0.05, 0.1, 1, 10]
-    for l in lambdas:
-        print('Lambda = %.5f' % l)
-        # Start time for the 5-fold CV
-        start = time.time()
-        # Create ridge regression object
-        knn_reg = linear_model.Ridge(alpha=l)
-        scores = model_selection.cross_val_score(knn_reg, X_train, y_train, scoring='r2', cv=5)
-        end = time.time()
-        t = end - start
-        print('Ridge: Least CV error: %.2f and time : %.3f' % (np.min(-scores), t))
-        start = time.time()
-        # Create lasso object
-        regrLasso = linear_model.Lasso(alpha=l)
-        scores = model_selection.cross_val_score(regrLasso, X_train, y_train, scoring='r2', cv=5)
-        # Measure and compute time for the 5-fold CV
-        end = time.time()
-        t = end - start
-        print('Lasso: Least CV error: %.2f and time : %.3f' % (np.min(-scores), t))
-        print('\n')
-
-    # -------------------- Cross validation for Elastic Net ------------------------#
-    # Range of hyper-parameters to choose for CV
-    l1Ratios = [0.1, 0.25, 0.5, 0.75, 0.9]
-    for l in lambdas:
-        print('Lambda = %.5f' % l)
-        for l1R in l1Ratios:
-            start = time.time()
-            # Create elastic net object
-            regrElasNet = linear_model.ElasticNet(alpha=l, l1_ratio=l1R)
-            scores = model_selection.cross_val_score(regrElasNet, X_train, y_train, scoring='r2',
-                                                     cv=5)
-            end = time.time()
-            t = end - start
-            print('Elastic Net: l1Ratio = %.2f, Least CV error: %.2f and time : %.3f' % (l1R, np.min(-scores), t))
-        print('\n')
+    # # Create OLS linear regression object
+    # regrOLS = linear_model.LinearRegression()
+    #
+    # # Perform 5 fold cross-validation and store the MSE resulted from each fold
+    # scores = model_selection.cross_val_score(regrOLS, X_train, y_train, scoring='r2', cv=5)
+    #
+    # # Note: Due to a known issue in scikit-learn the results return are flipped in sign
+    # print('OLS: Least CV error: %.2f\n' % np.min(-scores))
+    #
+    # # ---------------- Cross validation for Ridge and Lasso ------------------------#
+    # # Range of hyper-parameters to choose for CV
+    # lambdas = [0.0001, 0.001, 0.01, 0.02, 0.05, 0.1, 1, 10]
+    # for l in lambdas:
+    #     print('Lambda = %.5f' % l)
+    #     # Start time for the 5-fold CV
+    #     start = time.time()
+    #     # Create ridge regression object
+    #     knn_reg = linear_model.Ridge(alpha=l)
+    #     scores = model_selection.cross_val_score(knn_reg, X_train, y_train, scoring='r2', cv=5)
+    #     end = time.time()
+    #     t = end - start
+    #     print('Ridge: Least CV error: %.2f and time : %.3f' % (np.min(-scores), t))
+    #     start = time.time()
+    #     # Create lasso object
+    #     regrLasso = linear_model.Lasso(alpha=l)
+    #     scores = model_selection.cross_val_score(regrLasso, X_train, y_train, scoring='r2', cv=5)
+    #     # Measure and compute time for the 5-fold CV
+    #     end = time.time()
+    #     t = end - start
+    #     print('Lasso: Least CV error: %.2f and time : %.3f' % (np.min(-scores), t))
+    #     print('\n')
+    #
+    # # -------------------- Cross validation for Elastic Net ------------------------#
+    # # Range of hyper-parameters to choose for CV
+    # l1Ratios = [0.1, 0.25, 0.5, 0.75, 0.9]
+    # for l in lambdas:
+    #     print('Lambda = %.5f' % l)
+    #     for l1R in l1Ratios:
+    #         start = time.time()
+    #         # Create elastic net object
+    #         regrElasNet = linear_model.ElasticNet(alpha=l, l1_ratio=l1R)
+    #         scores = model_selection.cross_val_score(regrElasNet, X_train, y_train, scoring='r2',
+    #                                                  cv=5)
+    #         end = time.time()
+    #         t = end - start
+    #         print('Elastic Net: l1Ratio = %.2f, Least CV error: %.2f and time : %.3f' % (l1R, np.min(-scores), t))
+    #     print('\n')
 
     # ------------- Cross validation for Random Forest Regressor -------------------#
     # Range of hyper-parameters to choose for CV
@@ -139,6 +139,7 @@ def model_selection_cv(pca_trn, pca_tst, y_train, y_test):
         scores = model_selection.cross_val_score(knn_reg, X_train, y_train, scoring='r2', cv=5)
         end = time.time()
         t = end - start
+        print('n_neighbors: ', l)
         print('KNeighborsRegressor: Least CV error: %.2f and time : %.3f' % (np.min(-scores), t))
         print('\n')
 
@@ -207,18 +208,18 @@ def model_selection_cv(pca_trn, pca_tst, y_train, y_test):
           "\nBest Params: ", gs.best_params_)
     print('\n')
 
-    # ------------ Cross validation for Support Vector Regressor -------------------#
-    # Range of hyper-parameters to choose for CV
-    C = [0.01, 0.1, 1, 10, 20, 50]
-    eps = [0.0005, 0.001, 0.01, 0.05, 0.1, 0.5, 1, 10, 100]
-    for c in C:
-        print('C = %.5f' % c)
-        for e in eps:
-            start = time.time()
-            # Create SVR object
-            svr = svm.SVR(C=c, epsilon=e)
-            scores = model_selection.cross_val_score(svr, X_train, y_train, scoring='r2', cv=5)
-            end = time.time()
-            t = end - start
-            print('SVR: eps = %.4f, Least CV error: %.2f and time : %.3f' % (e, np.min(-scores), t))
-        print('\n')
+    # # ------------ Cross validation for Support Vector Regressor -------------------#
+    # # Range of hyper-parameters to choose for CV
+    # C = [0.01, 0.1, 1, 10, 20, 50]
+    # eps = [0.0005, 0.001, 0.01, 0.05, 0.1, 0.5, 1, 10, 100]
+    # for c in C:
+    #     print('C = %.5f' % c)
+    #     for e in eps:
+    #         start = time.time()
+    #         # Create SVR object
+    #         svr = svm.SVR(C=c, epsilon=e)
+    #         scores = model_selection.cross_val_score(svr, X_train, y_train, scoring='r2', cv=5)
+    #         end = time.time()
+    #         t = end - start
+    #         print('SVR: eps = %.4f, Least CV error: %.2f and time : %.3f' % (e, np.min(-scores), t))
+    #     print('\n')

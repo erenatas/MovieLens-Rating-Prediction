@@ -7,9 +7,9 @@ import dask.dataframe as dd
 
 
 def preprocess_data():
-    print("Download the necessary data-set with cURL")
-    os.system("curl -O -X GET 'http://files.grouplens.org/datasets/movielens/ml-latest.zip' && unzip ml-latest.zip && rm "
-            "ml-latest.zip")
+    # print("Download the necessary data-set with cURL")
+    # os.system("curl -O -X GET 'http://files.grouplens.org/datasets/movielens/ml-latest.zip' && unzip ml-latest.zip && rm "
+    #         "ml-latest.zip")
 
     # Dask setting to enable seeing all columns on print
     pd.set_option('display.max_columns', 25)
@@ -50,6 +50,7 @@ def preprocess_data():
     identity_sum = movie_dd.groupby('title').sum().identity
     groupby_mean = movie_dd.groupby('title').mean()
     groupby_mean['rating_count'] = identity_sum
+    groupby_mean = groupby_mean[groupby_mean['rating_count'] > 9] # To ensure that there are at least 10 voters.
     groupby_mean['lifespan_in_movielens'] = lifespan_in_movielens
     groupby_mean['genres'] = movie_dd.groupby('title').first().genres
     groupby_mean.reset_index(level=0, drop=True, inplace=True)

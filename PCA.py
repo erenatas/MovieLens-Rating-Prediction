@@ -18,6 +18,7 @@ def f_apply_pca(trn, tst, k=None):
     plt.title('PCA Analysis')
     plt.style.context('seaborn-whitegrid')
 
+    print("Variance Rate: ", var_rate)
     plt.plot(var_rate)
     plt.show()
 
